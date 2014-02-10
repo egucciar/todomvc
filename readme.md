@@ -1,6 +1,8 @@
-# ![TodoMVC](https://raw.github.com/tastejs/todomvc/gh-pages/media/logo.png)
+# ![TodoMVC](media/logo.png)
 
-## Helping you select an MV\* framework
+> Helping you select an MV\* framework
+
+### [Website](http://todomvc.com)&nbsp;&nbsp;&nbsp;&nbsp;[Blog](http://blog.tastejs.com)&nbsp;&nbsp;&nbsp;&nbsp;[TasteJS](http://tastejs.com)
 
 
 Developers these days are spoiled with choice when it comes to selecting an MV\* framework for structuring and organizing JavaScript web apps.
@@ -10,92 +12,12 @@ Backbone, Ember, AngularJS, Spine... the list of new and stable solutions goes o
 To help solve this problem, we created TodoMVC - a project which offers the same Todo application implemented using MV* concepts in most of the popular JavaScript MV\* frameworks of today.
 
 
-#### Todo apps are included for:
-
-- [Backbone.js](http://documentcloud.github.com/backbone)
-- [Ember.js](http://emberjs.com)
-- [AngularJS](http://angularjs.org)
-- [Spine](http://spinejs.com)
-- [KnockoutJS](http://knockoutjs.com) (MVVM)
-- [Dojo](http://dojotoolkit.org)
-- [YUI](http://yuilibrary.com)
-- [Batman.js](http://batmanjs.org)
-- [Closure](http://code.google.com/closure/library/)
-- [Agility.js](http://agilityjs.com)
-- [Knockback.js](http://kmalakoff.github.com/knockback)
-- [Google Web Toolkit](https://developers.google.com/web-toolkit/)
-- [Flight by Twitter](https://github.com/twitter/flight)
-
-
-###### Non-framework Implementations
-
-- [jQuery](http://jquery.com)
-- [Vanilla JS](http://todomvc.com/vanilla-examples/vanillajs/)
-
-###### RequireJS
-
-- [Backbone.js](http://documentcloud.github.com/backbone) + [RequireJS](http://requirejs.org)
-- [AngularJS](http://angularjs.org) + [RequireJS](http://requirejs.org)
-- [KnockoutJS](http://knockoutjs.com) + [RequireJS](http://requirejs.org)
-- [CanJS](http://canjs.us) + [RequireJS](http://requirejs.org)
-
-#### Labs
-
-We also have a number of in-progress applications in Labs:
-
-- [React](http://facebook.github.io/react)
-- [Meteor](http://meteor.com)
-- [Derby](http://derbyjs.com)
-- [CanJS](http://canjs.us)
-- [Kendo UI](http://kendoui.com)
-- [Maria.js](https://github.com/petermichaux/maria)
-- [cujoJS](http://cujojs.com)
-- [MarionetteJS](http://marionettejs.com/)
-- [SocketStream](http://www.socketstream.org) + [jQuery](http://jquery.com)
-- [Ext.js](http://www.sencha.com/products/extjs)
-- [Sammy.js](http://sammyjs.org)
-- [dermis](https://github.com/wearefractal/dermis)
-- [Stapes.js](http://hay.github.com/stapes)
-- [Epitome](http://dimitarchristoff.github.com/Epitome)
-- [TroopJS](https://github.com/troopjs)
-- [soma.js](http://somajs.github.com/somajs)
-- [DUEL](https://bitbucket.org/mckamey/duel/wiki/Home)
-- [Olives](https://github.com/flams/olives)
-- [PlastronJS](https://github.com/rhysbrettbowen/PlastronJS)
-- [Dijon](https://github.com/creynders/dijon-framework)
-- [rAppid.js](http://www.rappidjs.com)
-- [Thorax](http://walmartlabs.github.com/thorax/)
-- [KnockoutJS](http://knockoutjs.com) + [ClassBindingProvider](https://github.com/rniemeyer/knockout-classBindingProvider) (using Ryan Niemeyer's Class Binding Provider)
-- [KnockoutJS](http://knockoutjs.com) + [RequireJS](http://requirejs.org) (using AMD)
-- [AngularJS](http://angularjs.org) + [RequireJS](http://requirejs.org) (using AMD)
-- [CanJS](http://canjs.us) + [RequireJS](http://requirejs.org) (using AMD)
-- [AngularJS](http://angularjs.org) (optimized)
-- [Backbone.xmpp](https://github.com/ggozad/Backbone.xmpp)
-- [Dart](http://dartlang.org)
-- [Chaplin](http://chaplinjs.org) + [Brunch](http://brunch.io)
-- [Serenade.js](https://github.com/elabs/serenade.js)
-- [TypeScript](http://www.typescriptlang.org/)
-- [DeftJS](http://deftjs.org/)
-- [Aria Templates](http://ariatemplates.com/)
-- [Enyo + Backbone.js](http://enyojs.com/)
-- [SAPUI5](http://scn.sap.com/community/developer-center/front-end)
-- [Lavaca](http://getlavaca.com) + [RequireJS](http://requirejs.org) (using AMD)
-
-## Live demos
-
-Live demos are available on our [website](http://todomvc.com)
-
 ## View & Run in Web IDE
 
 Click on the button below to view the code in a Web IDE. Feel free to edit the code and then run it all from your browser.
 
-[![IDE](https://raw.github.com/tastejs/todomvc/gh-pages/site-assets/editcloud9.png)](https://c9.io/open/git/?url=git://github.com/tastejs/todomvc.git)
+[![IDE](site-assets/editcloud9.png)](https://c9.io/open/git/?url=git://github.com/tastejs/todomvc.git)
 [![IDE](https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png)](https://codio.com/p/create/?from_github=tastejs/todomvc)
-
-
-## Screenshot
-
-![screenshot](https://raw.github.com/tastejs/todomvc/gh-pages/site-assets/screenshot.png)
 
 
 ## Team
@@ -122,6 +44,11 @@ Pascal is a Front-end Engineer at Twitter with a deep passion for consistency. H
 <img align="left" width="40" height="40" src="https://secure.gravatar.com/avatar/098cfe2d360e77c3229f2cd5298354c4?s=40">
 Stephen is a Front-end Engineer at Quicken Loans that cares about improving the maintainability and developer experience of open-source projects. His recent contributions include helping us move all apps over to using Bower and implementing the new information bar.
 
+#### [Colin Eberhardt](https://github.com/colineberhardt) - Developer
+
+<img align="left" width="40" height="40" src="https://secure.gravatar.com/avatar/73bba00b41ff1c9ecc3ee29487bace7d?s=40">
+Colin is a software consultant at Scott Logic who is passionate about all software - from JavaScript to Java, and C# to Objective-C. His recent contribution to the project has been a fully automated test suite.
+
 #### [Gianni Chiappetta](https://github.com/gf3) - Logo designer
 
 <img align="left" width="40" height="40" src="http://www.gravatar.com/avatar/4b0209ae3652cc5a7d53545e759fbe39.png?s=40">
@@ -129,7 +56,7 @@ Gianni is a programmer and designer currently working as the Chief Rigger at Met
 
 ## Disclaimer
 
-<img align="right" width="230" height="230" src="https://raw.github.com/tastejs/todomvc/gh-pages/media/icon-small.png">
+<img align="right" width="230" height="230" src="media/icon-small.png">
 
 TodoMVC has been called many things including the 'Speed-dating' and 'Rosetta Stone' of MV* frameworks. Whilst we hope that this project is able to offer assistance in deciding what frameworks are worth spending more time looking at, remember that the Todo application offers a limited view of what a framework may be capable of.
 

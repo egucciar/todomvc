@@ -22,7 +22,8 @@
 					<p>Helping you <strong>select</strong> an MV* framework</p>
 					<nav>
 						<a href="https://github.com/tastejs/todomvc/zipball/1.2.0" class="zocial red">Download (1.2)</a>
-						<a href="https://github.com/tastejs/todomvc" class="zocial red">View project on GitHub</a>
+						<a href="https://github.com/tastejs/todomvc" class="zocial ltgray">View on GitHub</a>
+						<a href="http://tastejs.roon.io" class="zocial ltgray">Blog</a>
 					</nav>
 				</div>
 				<div class="col-md-4">
@@ -41,7 +42,7 @@
 				</div>
 				<div class="col-md-8">
 					<h2>JavaScript Apps</h2>
-					<ul class="applist">
+					<ul class="applist js">
 						<li class="routing">
 							<a href="architecture-examples/backbone/" data-source="http://documentcloud.github.com/backbone/" data-content="Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.">Backbone.js</a>
 						</li>
@@ -75,11 +76,11 @@
 						<li class="routing">
 							<a href="architecture-examples/polymer/index.html" data-source="http://polymer-project.org" data-content="Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers. It is comprised of core platform features (e.g Shadow DOM, Custom Elements, MDV) enabled with polyfills and a next generation web application framework built on these technologies.">Polymer</a>
 						</li>
+						<li class="routing">
+							<a href="architecture-examples/react/" data-source="http://facebook.github.io/react/" data-content="React is a JavaScript library for building user interfaces.">React</a>
+						</li>
 						<li class="labs">
 							<a href="labs/architecture-examples/cujo/index.html" data-source="http://cujojs.com" data-content="cujoJS is an architectural framework for building highly modular, scalable, maintainable applications in Javascript.  It provides architectural plumbing, such as modules (AMD and CommonJS), declarative application composition, declarative connections, and aspect oriented programming.">cujoJS</a>
-						</li>
-						<li class="routing labs">
-							<a href="labs/architecture-examples/dermis/" data-source="https://github.com/wearefractal/dermis" data-content="dermis is a tiny framework that provides models, collections, controllers, and data-binding out of the box. dermis is designed to be the simplest possible solution for creating complex applications">dermis</a>
 						</li>
 						<li class="labs">
 							<a href="labs/architecture-examples/montage/" data-source="http://montagejs.org" data-content="Montage simplifies the development of rich HTML5 applications by providing modular components, real-time two-way data binding, CommonJS dependency management, and many more conveniences.">Montage</a>
@@ -133,9 +134,6 @@
 							<a href="architecture-examples/angularjs-perf/" data-source="http://angularjs.org" data-content="What HTML would have been had it been designed for web apps. A version with several performance optimizations.">AngularJS <br>(optimized)</a>
 						</li>
 						<li class="routing labs">
-							<a href="labs/architecture-examples/react/" data-source="http://facebook.github.io/react/" data-content="React is a JavaScript library for building user interfaces.">React</a>
-						</li>
-						<li class="routing labs">
 							<a href="labs/architecture-examples/sapui5/" data-source="http://scn.sap.com/community/developer-center/front-end" data-content="SAPUI5 is SAP's HTML5-based UI technology that allows you to build rich, interactive Web applications.">SAPUI5</a>
 						</li>
 						<li class="routing labs">
@@ -144,10 +142,19 @@
 						<li class="routing labs">
 							<a href="labs/architecture-examples/atmajs/" data-source="http://atmajs.com/" data-content="HMVC and the component-based architecture for building client, server or hybrid applications">Atma.js</a>
 						</li>
+						<li class="labs">
+							<a href="labs/architecture-examples/ractive/" data-source="http://ractivejs.org" data-content="Ractive.js is a next-generation DOM manipulation library, optimised for developer sanity.">Ractive.js</a>
+						</li>
+						<li class="labs routing">
+							<a href="labs/architecture-examples/componentjs/" data-source="http://componentjs.com" data-content="ComponentJS is a stand-alone MPL-licensed Open Source library for JavaScript, providing a powerful run-time Component System for hierarchically structuring the User-Interface (UI) dialogs of complex HTML5-based Rich Clients (aka Single-Page-Apps) — under maximum applied Separation of Concerns (SoC) architecture principle, through optional Model, View and Controller component roles, with sophisticated hierarchical Event, Service, Hook, Model, Socket and Property mechanisms, and fully independent and agnostic of the particular UI widget toolkit.">ComponentJS</a>
+						</li>
+						<li class="labs routing">
+							<a href="labs/architecture-examples/vue/" data-source="http://vuejs.org" data-content="Vue.js provides the benefits of MVVM data binding and a composable component system with an extremely simple and flexible API.">Vue.js</a>
+						</li>
 					</ul>
 					<ul class="legend">
 						<li><b>*</b> <span class="label">R</span> = App also demonstrates routing</li>
-						<li><b>*</b> <span class="labs-example">Maroon</span> = App requires further work to comply with <a href="https://github.com/tastejs/todomvc/wiki/App-Specification">the spec</a></li>
+						<li><b>*</b> <strong>Maroon</strong> = App requires further work to comply with <a href="https://github.com/tastejs/todomvc/blob/gh-pages/app-spec.md">the spec</a></li>
 					</ul>
 					<hr>
 					<h2>Compile To JavaScript</h2>
@@ -156,13 +163,16 @@
 							<a href="architecture-examples/spine/" data-source="http://spinejs.com" data-content="Spine is a lightweight framework for building JavaScript web applications. Spine gives you an MVC structure and then gets out of your way, allowing you to concentrate on the fun stuff, building awesome web applications.">Spine</a>
 						</li>
 						<li class="routing">
-							<a href="architecture-examples/dart/web/" data-source="http://dartlang.org" data-content="Dart firstly targets the development of modern and large scale browser-side web apps. It's an object oriented language with a C-style syntax. It has two run modes : it can be compiled to JS, and will later run in native VM in compliant browsers (just in a dedicated Chromium provided with Dart SDK for the moment).">Dart</a>
+							<a href="vanilla-examples/vanilladart/build/" data-source="http://dartlang.org" data-content="Dart firstly targets the development of modern and large scale browser-side web apps. It's an object oriented language with a C-style syntax. It has two run modes : it can be compiled to JS, and will later run in native VM in compliant browsers (just in a dedicated Chromium provided with Dart SDK for the moment).">Dart</a>
 						</li>
 						<li class="routing">
 							<a href="architecture-examples/gwt/" data-source="https://developers.google.com/web-toolkit/" data-content="Google Web Toolkit (GWT) is an MVP development toolkit for building and optimizing complex browser-based applications. GWT is used by many products at Google, including Google AdWords.">GWT</a>
 						</li>
 						<li class="routing">
 							<a href="architecture-examples/closure/" data-source="http://code.google.com/closure/library/" data-content="The Closure Library is a broad, well-tested, modular, and cross-browser JavaScript library. You can pull just what you need from a large set of reusable UI widgets and controls, and from lower-level utilities for DOM manipulation, server communication, animation, data structures, unit testing, rich-text editing, and more.">Closure</a>
+						</li>
+						<li class="labs">
+							<a href="labs/architecture-examples/angular-dart/web/" data-source="https://github.com/angular/angular.dart" data-content="Dart firstly targets the development of modern and large scale browser-side web apps. It's an object oriented language with a C-style syntax. AngularDart is a port of Angular to Dart.">AngularDart</a>
 						</li>
 						<li class="routing labs">
 							<a href="labs/architecture-examples/batman/" data-source="http://batmanjs.org" data-content="Batman.js is a framework for building rich web applications with CoffeeScript or JavaScript. App code is concise and declarative, thanks to a powerful system of view bindings and observable properties. The API is designed with developer and designer happiness as its first priority.">Batman.js</a>
@@ -192,7 +202,7 @@
 					</ul>
 					<hr>
 					<h2>Module Loaders</h2>
-					<ul class="applist amd">
+					<ul class="applist">
 						<li class="routing">
 							<a href="dependency-examples/backbone_require/" data-source="http://requirejs.org" data-content="RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.">Backbone.js + RequireJS</a>
 						</li>
@@ -200,7 +210,7 @@
 							<a href="dependency-examples/flight/" data-source="http://twitter.github.com/flight" data-content="Flight is a lightweight, component-based JavaScript framework that maps behavior to DOM nodes. Twitter uses it for their web applications.">Flight</a>
 						</li>
 						<li class="labs">
-							<a href="labs/dependency-examples/knockoutjs_require/" data-source="http://knockoutjs.com" data-content="This project is an adaptation of /architecture-examples/knockoutjs with require.js.">Knockout + RequireJS</a>
+							<a href="labs/dependency-examples/knockoutjs_require/" data-source="http://knockoutjs.com" data-content="This project is an adaptation of /architecture-examples/knockoutjs with require.js.">KnockoutJS + RequireJS</a>
 						</li>
 						<li class="routing labs">
 							<a href="labs/dependency-examples/angularjs_require/" data-source="http://angularjs.org" data-content="What HTML would have been had it been designed for web apps. This is an example of using it with AMD modules.">AngularJS + RequireJS</a>
@@ -226,15 +236,15 @@
 					</ul>
 					<hr>
 					<h2>Real-time</h2>
-					<ul class="applist amd">
+					<ul class="applist">
 						<li class="labs">
 							<a href="http://todomvcapp.meteor.com" data-source="http://meteor.com" data-content="Meteor is an ultra-simple environment for building modern websites. A Meteor application is a mix of JavaScript that runs inside a client web browser, JavaScript that runs on the Meteor server inside a Node.js container, and all the supporting HTML fragments, CSS rules, and static assets. Meteor automates the packaging and transmission of these different components. And, it is quite flexible about how you choose to structure those components in your file tree.">Meteor</a>
 						</li>
 						<li class="labs">
 							<a href="http://todomvc.derbyjs.com" data-source="http://derbyjs.com" data-content="MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers.">Derby</a>
 						</li>
-						<li class="labs">
-							<a href="https://github.com/tastejs/todomvc/blob/gh-pages/labs/architecture-examples/socketstream/readme.md" data-source="http://www.socketstream.org" data-content="SocketStream is a fast, modular Node.js web framework dedicated to building realtime single-page apps">SocketStream</a>
+						<li class="routing labs">
+							<a href="http://todomvc-socketstream.herokuapp.com" data-source="http://www.socketstream.org" data-content="SocketStream is a fast, modular Node.js web framework dedicated to building realtime single-page apps">SocketStream</a>
 						</li>
 						<li class="routing labs">
 							<a href="labs/architecture-examples/firebase-angular/" data-source="https://www.firebase.com" data-content="Firebase is a scalable realtime backend that lets you build apps without managing servers. Firebase persists and updates JSON data in realtime and is best used in combination with a JavaScrpt MV* framework such as AngularJS or Backbone.">Firebase + AngularJS</a>
@@ -246,7 +256,7 @@
 						<li class="routing">
 							<a href="vanilla-examples/vanillajs/" data-source="https://developer.mozilla.org/en/JavaScript" data-content="You know JavaScript right? :P">Vanilla JS</a>
 						</li>
-						<li>
+						<li class="routing">
 							<a href="architecture-examples/jquery/" data-source="http://jquery.com" data-content="jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.">jQuery</a>
 						</li>
 					</ul>
@@ -273,12 +283,12 @@
 					<h2>New in 1.2 - 2013-08-06</h2>
 					<ul class="whats-new">
 						<li>We now have 21 stable apps and 45 in labs.
-							<label for="news-expander"><a>New since 1.1 ▼</a></label>
+							<label class="link" for="news-expander">New since 1.1 ▼</label>
 							<input type="checkbox" id="news-expander">
 							<ul class="collapsed" id="new-apps">
 								<li><a href="architecture-examples/polymer/">Polymer</a></li>
 								<li><a href="dependency-examples/flight/">Flight</a></li>
-								<li><a href="labs/architecture-examples/react/">React</a></li>
+								<li><a href="architecture-examples/react/">React</a></li>
 								<li><a href="vanilla-examples/vanillajs">VanillaJS Rewrite</a></li>
 								<li><a href="labs/architecture-examples/sapui5/">SAPUI5</a></li>
 								<li><a href="labs/architecture-examples/firebase-angular/">AngularJS + Firebase</a></li>
@@ -302,7 +312,7 @@
 					<p>If so, feel free to fork the repo, read our <a href="https://github.com/tastejs/todomvc/wiki">contribution guidelines</a>, and submit a pull request &mdash; we'll be happy to review it for inclusion.</p>
 					<p>Make sure you use the <a href="https://github.com/tastejs/todomvc/tree/gh-pages/template">template</a> as a starting point and read the <a href="https://github.com/tastejs/todomvc/blob/gh-pages/app-spec.md">app specification</a>.</p>
 					<p>
-						<a class="zocial small gray" href="https://github.com/tastejs/todomvc/wiki">Submit Pull Request &raquo;</a>
+						<a class="zocial small ltgray" href="https://github.com/tastejs/todomvc/wiki">Submit Pull Request &raquo;</a>
 					</p>
 				</div>
 			</div>
@@ -313,6 +323,7 @@
 					<a href="https://github.com/sindresorhus"><img src="http://gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9.png?s=80" width="40" height="40" alt="Sindre Sorhus">Sindre Sorhus</a>
 					<a href="https://github.com/passy"><img src="http://gravatar.com/avatar/be451fcdbf0e5ff07f23ed16cb5c90a3.png?s=80" width="40" height="40" alt="Pascal Hartig">Pascal Hartig</a>
 					<a href="https://github.com/stephenplusplus"><img src="http://gravatar.com/avatar/098cfe2d360e77c3229f2cd5298354c4?s=80" width="40" height="40" alt="Stephen Sawchuk">Stephen Sawchuk</a>
+					<a href="https://github.com/colineberhardt"><img src="http://gravatar.com/avatar/73bba00b41ff1c9ecc3ee29487bace7d?s=80" width="40" height="40" alt="Colin Eberhardt">Colin Eberhardt</a>
 				</p>
 			</footer>
 		</div>

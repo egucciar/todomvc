@@ -134,11 +134,12 @@ var todos;
         };
 
         TodoCtrl.prototype.addTodo = function () {
-            if (!this.$scope.newTodo.length) {
+            var newTodo = this.$scope.newTodo.trim();
+            if (!newTodo.length) {
                 return;
             }
 
-            this.todos.push(new todos.TodoItem(this.$scope.newTodo, false));
+            this.todos.push(new todos.TodoItem(newTodo, false));
             this.$scope.newTodo = '';
         };
 
@@ -148,6 +149,7 @@ var todos;
 
         TodoCtrl.prototype.doneEditing = function (todoItem) {
             this.$scope.editedTodo = null;
+            todoItem.title = todoItem.title.trim();
             if (!todoItem.title) {
                 this.removeTodo(todoItem);
             }
